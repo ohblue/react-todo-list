@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import actions from '../redux/actions'
 
-class TextInput extends Component {
+class TodoInput extends Component {
 
   constructor(props, context) {
     super(props, context)
@@ -44,4 +44,4 @@ class TextInput extends Component {
 
 }
 
-export default TextInput
+export default TodoInput

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import TextInput from './TextInput'
+import TodoInput from './TodoInput'
 import TodoList from './TodoList'
 import { connect } from 'react-redux'
 
@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div>
         <h1>Todo List</h1>
-        <TextInput dispatch={this.props.dispatch} />
+        <TodoInput dispatch={this.props.dispatch} />
         <TodoList todos={this.props.todos}/>
       </div>
     )

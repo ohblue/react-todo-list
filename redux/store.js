@@ -7,5 +7,5 @@ let finalCreateStore = compose(
 )(createStore)
 
 export default function configureStore(initialState = { todos:[] }){
-    return createStore(reducer, initialState)
+    return finalCreateStore(reducer, initialState)
 }
